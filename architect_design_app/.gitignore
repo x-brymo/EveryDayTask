@@ -6,6 +6,8 @@
 .DS_Store
 .atom/
 .build/
+package.txt
+run.dart
 .buildlog/
 .history
 .svn/
