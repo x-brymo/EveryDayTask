@@ -11,7 +11,10 @@ plugins {
 android {
     namespace = "com.example.architect_design_app"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = "27.0.12077973"
+    ndkVersion = "25.2.9519653"
+  
+    //ndkVersion = "27.0.12077973" this for my phone 
+    // 23.1.7779620 for idx or this  "25.2.9519653"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -45,3 +48,4 @@ android {
 flutter {
     source = "../.."
 }
+

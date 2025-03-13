@@ -1,3 +1,4 @@
+import 'package:architect_design_app/src/config/route.dart';
 import 'package:flutter/material.dart';
 
 import 'src/ui/presentation/pages/start_screen.dart';
@@ -14,6 +15,8 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: StartScreen(),
+      onGenerateRoute: MyRouter.onGenerateRoute,
+      initialRoute: '/',
     );
   }
 }

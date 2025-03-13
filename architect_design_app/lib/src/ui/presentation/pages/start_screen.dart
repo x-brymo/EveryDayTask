@@ -1,7 +1,7 @@
-import 'package:architect_design_app/src/ui/presentation/pages/home.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/3dBox.dart';
+import 'auth/auth_screen.dart';
 
 class StartScreen extends StatefulWidget {
   const StartScreen({super.key});
@@ -29,7 +29,7 @@ class _StartScreenState extends State<StartScreen> {
             child: Column(
               children: <Widget>[
                 Expanded(
-                  flex: 5,
+                  flex: 4,
                   child: Stack(
                     children: <Widget>[
                       get3DBox(
@@ -116,7 +116,7 @@ class _StartScreenState extends State<StartScreen> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => Home()));
+                                    builder: (context) => AuthScreen()));
                           },
                           child: Container(
                             height: 60,
